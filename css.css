@@ -44,3 +44,76 @@ h1{
 nav img{
     width: 8rem;
 }
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section div{
+    width: 20rem;
+    max-width: 150%;
+    display: flex;
+    position: relative;
+}
+.searchTerm{
+    width: 40rem;
+    border-right: none;
+    border-left: none;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    text-align: auto;
+    padding-left: 1rem;
+}
+section i{
+    width: 10rem;
+    border-top: 13px solid #f2f2f2;
+    background-color:#f2f2f2;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    font-size: 1rem;
+  
+}
+section button{
+    width: 21rem;
+    max-width: 150%;
+    height: 50px;
+    border: 1px #0065FC;
+    border-radius: 0 15px 15px 0;
+    background-color: #0065FC;
+    color: #f2f2f2;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.conteneur{
+    display: flex;
+    align-items: center;
+    margin: 2rem 19rem;
+}
+.conteneur span{
+    border: 2px solid #d9d9d9;
+    border-radius: 3rem;
+    margin-right: 4rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.conteneur div {
+    margin-left: 2rem;
+    background-color: #deebff;
+    color: #0065FC;
+    width: 52px;
+    height: 52px;
+    border-radius: 25px;
+    text-align: center;
+}
+.conteneur h2{
+    font-size: 1rem;
+}
+.conteneur i{
+margin-bottom: 1rem;
+padding-bottom: 1rem;
+}
