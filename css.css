@@ -86,18 +86,14 @@ section button{
 }
 .conteneur{
     display: flex;
-    align-items: center;
-    margin: 2rem 19rem;
 }
 .conteneur h2{
-    margin-right: 2rem;
     font-size: 1rem;
 }
 .conteneur div{
     border: 2px solid #d9d9d9;
     font-weight: bold;
     border-radius: 5rem;
-    margin: 1rem 2rem 1rem;
     padding-right: 2.3rem;  
 }
 .conteneur i{   
