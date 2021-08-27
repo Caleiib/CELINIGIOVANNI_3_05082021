@@ -122,3 +122,23 @@ section button{
     font-size: 1.2rem;
     transform: translate(2.4rem, -10px);
 }
+.info{
+    display: flex;
+    width: 100%;
+    max-width: 150%;
+    position: relative;
+    margin-left: 6rem;
+    left: 13.5rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+.info i{
+    border: 2px solid #d9d9d9;
+    border-radius: 5rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    color: #0065FC;
+}
