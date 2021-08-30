@@ -2,12 +2,12 @@
 html, body{
     margin: 0;
     font-family: 'Raleway';
-    font-size: 125%;
+    font-size: 100%;
 }
 .container{
     padding: 0 2rem;
     width: 90rem;
-    max-width: 100%;
+    max-width: 110%;
     margin: auto;
 }
 a{
@@ -89,7 +89,7 @@ section button{
     width: 100%;
     max-width: 150%;
     position: relative;
-    left: 13.5rem;
+    left:29rem;
     margin-top: 2rem;
     margin-left: 6rem;
 
@@ -120,7 +120,7 @@ section button{
     width: 1.6rem;
     text-align: center;
     font-size: 1.2rem;
-    transform: translate(2.4rem, -10px);
+    transform: translate(45px, -14px);
 }
 .info{
     display: flex;
@@ -128,7 +128,7 @@ section button{
     max-width: 150%;
     position: relative;
     margin-left: 6rem;
-    left: 13.5rem;
+    left: 29rem;
     margin-top: 2rem;
     font-size: 1.1rem;
 }
@@ -142,3 +142,4 @@ section button{
     margin-right: 1rem;
     color: #0065FC;
 }
+
