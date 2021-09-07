@@ -88,10 +88,8 @@ section button{
     display: flex;
     width: 100%;
     max-width: 150%;
-    position: relative;
-    left:29rem;
     margin-top: 2rem;
-    margin-left: 6rem;
+  
 
 }
 .conteneur h2{
@@ -108,7 +106,7 @@ section button{
     padding-right: 2rem;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
-    margin-right: 0rem;
+    left: 75px;
     border-left: 70px solid white;
 }
 .conteneur i{
@@ -120,15 +118,12 @@ section button{
     width: 1.6rem;
     text-align: center;
     font-size: 1.2rem;
-    transform: translate(45px, -14px);
+    transform: translate(45px, -1px);
 }
 .info{
     display: flex;
     width: 100%;
     max-width: 150%;
-    position: relative;
-    margin-left: 6rem;
-    left: 29rem;
     margin-top: 2rem;
     font-size: 1.1rem;
 }
@@ -142,4 +137,108 @@ section button{
     margin-right: 1rem;
     color: #0065FC;
 }
+.info p {
+    transform: translateY(-16px);
+}
+.logements h2{
+    margin: 2rem 3rem;
+    font-size: 1.4rem;
+}
+.logements {
+    background: #f2f2f2;
+    height: 40rem;
+    width: 75%;
+    transform: translateY(3rem);
+    border-radius: 15px;
+    padding-top: 1rem;
+}
+.carte{
+    max-width: 950px;
+    width: 90%;
+    height: auto;
+    margin: 2rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,240px);
+    justify-content: center;
+    grid-gap: 2rem;
+}
+.grid-item{
+    background: #ffffff;
+    width: 240.88px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 60.2px);
+    grid-template-rows: repeat(5, 40px);
+    border-radius: 10px;
+    border: 5px solid #ffffff;
+}
+.divImg {
+    grid-area: 1/1/4/5;
+    background: url(hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-size: cover;
+}
+.titre {
+    grid-area: 4/1/4/5;
+    transform: translateY(-10px);
+    margin-left: 0.5rem;
+}
+.description {
+    grid-area: 4/1/4/4;
+    transform: translateY(13px);
+    margin-left: 0.5rem;
+}
+.prix {
+    grid-area: 4/3/4/3;
+    transform: translateY(29px);
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+.score {
+    grid-area: 5/1/5/3;
+    transform: translateY(12px);
+    font-size: 14px;
+    margin-left: 0.5rem;
+}
+.divImg_2 {
+    grid-area: 1/1/4/5;
+    background: url(hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-size: cover;
+}
+.divImg_3 {
+    grid-area: 1/1/4/5;
+    background: url(hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-size: cover;
+}
+.divImg_4 {
+    grid-area: 1/1/4/5;
+    background: url(hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-size: cover;
+}
+.divImg_5 {
+    grid-area: 1/1/4/5;
+    background: url(hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-size: cover;
+}
+.divImg_6 {
+    grid-area: 1/1/4/5;
+    background: url(hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-size: cover;
+}
+.score {
+    color: #0065FC;
+}
+.etoiles {
+    grid-area: 5/2/5/2;
+    transform: translate(17px, 12px );
+    font-size: 14px;
+    margin-left: 0.5rem;
+    color: #d9d9d9;
+}
+.etoiles_2 {
+    grid-area: 5/2/5/2;
+    transform: translate(6px,12px);
+    font-size: 14px;
 
+    color: #d9d9d9;
+    
+}
