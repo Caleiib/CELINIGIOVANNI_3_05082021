@@ -402,8 +402,16 @@ footer li {
         grid-gap: 2rem;
      
     }
-    .section_activities {
-        
-        grid-area: auto;
+}
+@media screen and (max-width: 980px) {
+    .gridcontainer{
+        grid-template-columns: repeat(2, 1fr);
     }
- }
+    nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    nav>a:nth-child(1) {
+        display: grid;
+        grid-area: 2/1/3/2
+    }
+}
