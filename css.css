@@ -407,11 +407,8 @@ footer li {
     .gridcontainer{
         grid-template-columns: repeat(2, 1fr);
     }
-    nav {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    nav>a:nth-child(1) {
+    nav  {
         display: grid;
-        grid-area: 2/1/3/2
+        grid-template-columns: repeat(2, 1fr);
     }
 }
