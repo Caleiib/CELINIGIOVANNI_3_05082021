@@ -223,7 +223,7 @@ a>div:nth-child(2)>p {
 }
 
 .hebergements a {
-    color: #000
+    color: #000;
 }
 
 .bluestar {
@@ -408,7 +408,7 @@ footer li {
          transition: all .5s cubic-bezier( .6, 2, .4, 1);
 }
 .asidegrid:hover a:not(:hover) {
-         filter: grayscale(1) blur(5px);
+         /* filter: grayscale(1) blur(5px); */
 }
 .gridcontainer>a:hover {
          transform: scale(1.2);
@@ -418,7 +418,7 @@ footer li {
          transition: all .5s cubic-bezier( .6, 2, .4, 1);
 }
 .gridcontainer:hover a:not(:hover) {
-         filter: grayscale(1) blur(5px);
+         /* filter: grayscale(1) blur(5px); */
 }
 /* media queries */
 @media screen and (max-width:1511px) {
