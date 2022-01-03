@@ -56,7 +56,7 @@ h1 {
     margin-bottom: 0
 }
     /* search bar, filter and info */
-.barre_de_recherche div {
+form div {
     width: 20rem;
     display: flex
 }
@@ -81,7 +81,7 @@ h1 {
     font-size: 1rem
 }
 
-section button {
+form button {
     width: 21rem;
     max-width: 150%;
     height: 50px;
@@ -468,7 +468,7 @@ footer li {
     .info {
         padding-left: 1rem;
     }
-    .barre_de_recherche {
+    form {
         padding-left: 1rem;
     }
 }
@@ -563,7 +563,7 @@ footer li {
     .info {
         padding-left: 1rem;
     }
-    .barre_de_recherche {
+    form {
         padding-left: 1rem;
     }
     aside{
