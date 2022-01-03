@@ -107,7 +107,7 @@ section button {
 .conteneur > div {
     display: flex;
     align-items: center;
-    border: #f2f2f2 solid;
+    border: #d9d9d9 solid;
     border-radius: 5rem;
     margin-left: 1rem;
     margin-bottom: 0.5rem;
